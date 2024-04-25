@@ -1,44 +1,58 @@
-<h1 align="center">LIBRARY MANAGEMENT SYSTEM</h1>
+<h1 align="center">MOVIES MANAGEMENT SYSTEM</h1>
 
 -----------------
 
-<h2>What can you do with this management system?</h2>
+<h2 align="center">What can you do with this management system?</h2>
 
 -----------------------------
 
-<h3>BOOKS</h3>
+<h3 align="center">MOVIES</h3>
 
-* Add books to a json file
-    * title
-    * ID
-    * genre
-    * publisher
-    * author
-    * published year
-    * current stock
-* Remove books from the json file
+* Add movies to a json file
+    * id
+    * name
+    * duration
+    * sypnosis
+    * genres
+    * actors
+    * format
+* Remove movies from the json file
 * Look for a specific book from the json file and see all its info
-    * You can search for it by title, id, genre, publisher, author and published year
-* Rent a book to a user
-    * Rented book
-    * How long will he have it 
-    * Deadline
-    * Who rented it
-* See all the current books in
-* See all the current rented books and who have them
+    * You can search for it by name, id, genre, actors and format
+* See all the movies in the catalogue
+* Edit movie's info
 
 ---------------------
 
-<h3>USERS</h3>
+<h3 align="center">GENRES</h3>
 
-* Add users to a json file
-    * Name
+* Add genres to a json file
     * ID
-    * Phone
-    * Adress  
-* Remove users to a json file
-* Look for a specific user from the json file and see all its info
-    * All user info
-    * If he/she has a rented book
-    * How many time he has left to get back the book   
-* See all the current users in the platform
+    * Nombre
+* Remove genres from the json file
+* Look for a specific genre from the json file and see all its info
+* See all the current genres of the catalogue
+
+-------------------
+
+
+<h3 align="center">ACTORS</h3>
+
+* Add actors to a json file
+    * ID
+    * Nombre
+    * Movies 
+* Remove actors from the json file
+* Look for a specific actor from the json file
+* See all the current actors of the catalogue
+
+------------------------
+
+<h3 align="center">FORMATS</h3>
+
+* Add formats to a json file
+    * ID
+    * Nombre
+* Remove format from the json file
+* Look for a specific format from the json file
+* See all the current formats of the catalogue
