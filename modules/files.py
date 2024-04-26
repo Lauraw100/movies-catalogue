@@ -10,6 +10,8 @@ def checkFile(file:str):
     if not os.path.isfile(BASE+file): # Checks if json file exists in DATA folder
         with open(BASE+file, 'w') as createFile: 
             json.dump({}, createFile, indent = 4) #Creates json file with an empty object
+    else:
+        return False
 
     
 # Reads json file and loads it into a python dict
